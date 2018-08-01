@@ -13,6 +13,8 @@
 		01A8597E2111490000A5E76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A8597C2111490000A5E76B /* Main.storyboard */; };
 		01A859802111490200A5E76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A8597F2111490200A5E76B /* Assets.xcassets */; };
 		01A859832111490200A5E76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A859812111490200A5E76B /* LaunchScreen.storyboard */; };
+		01A8598B2111493600A5E76B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8598A2111493600A5E76B /* API.swift */; };
+		01A8598D2111511000A5E76B /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8598C2111511000A5E76B /* BoardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		01A8597F2111490200A5E76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01A859822111490200A5E76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01A859842111490200A5E76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A8598A2111493600A5E76B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		01A8598C2111511000A5E76B /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				01A859762111490000A5E76B /* AppDelegate.swift */,
+				01A8598A2111493600A5E76B /* API.swift */,
 				01A859782111490000A5E76B /* MasterViewController.swift */,
+				01A8598C2111511000A5E76B /* BoardModel.swift */,
 				01A8597A2111490000A5E76B /* DetailViewController.swift */,
 				01A8597C2111490000A5E76B /* Main.storyboard */,
 				01A8597F2111490200A5E76B /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 			files = (
 				01A8597B2111490000A5E76B /* DetailViewController.swift in Sources */,
 				01A859792111490000A5E76B /* MasterViewController.swift in Sources */,
+				01A8598B2111493600A5E76B /* API.swift in Sources */,
+				01A8598D2111511000A5E76B /* BoardModel.swift in Sources */,
 				01A859772111490000A5E76B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
